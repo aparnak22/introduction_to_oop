@@ -1,7 +1,7 @@
 package com.techreturners.introduction_to_oop.exercises;
 
 
-public abstract class Bird {
+public abstract class Bird implements Dance{
 
     protected String name;
     protected String color;
@@ -15,5 +15,17 @@ public abstract class Bird {
 
     public void fly() {
         System.out.println("I'm " + name + " and I can fly high in the blue sky!");
+    }
+
+    public void spin() {
+        System.out.println(name + " spin!");
+    }
+
+    public void doTheCaterpillar() {
+        System.out.println(name + " do the wriggly woo!");
+    }
+
+    public void jump() {
+        System.out.println(name + " jump in the air!");
     }
 }

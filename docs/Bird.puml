@@ -1,7 +1,13 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-abstract class Bird {
+interface Dance{
+    spin()
+    doTheCaterpillar()
+    jump()
+}
+
+abstract class Bird implements Dance {
    String name
    String color
    abstract speak()

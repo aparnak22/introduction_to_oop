@@ -8,6 +8,6 @@ public class Parrot extends Bird{
 
     @Override
     public void speak() {
-        System.out.println("Aye! I'm " + name + " and I'm a clever " + color + " parrot ");
+        System.out.println("Aye ! I'm " + name + " and I'm a clever " + color + " parrot ");
     }
 }
