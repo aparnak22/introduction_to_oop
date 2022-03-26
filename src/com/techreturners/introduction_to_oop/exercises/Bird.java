@@ -1,4 +1,4 @@
-package com.techreturners.introduction_to_oop.exercise2;
+package com.techreturners.introduction_to_oop.exercises;
 
 
 public abstract class Bird {

@@ -1,7 +1,6 @@
 package com.techreturners;
 
-import com.techreturners.introduction_to_oop.exercise2.Bird;
-import com.techreturners.introduction_to_oop.exercise3.Pigeon;
+import com.techreturners.introduction_to_oop.exercises.*;
 
 public class Main {
 
@@ -10,8 +9,13 @@ public class Main {
         pippa.speak();
         pippa.fly();
         pippa.eatPizza();
-        pippa.sleep();
 
+        Penguin pingu = new Penguin("Pingu", "Black & White");
+        pingu.speak();
+        pingu.fly();
 
+        Parrot parrot = new Parrot("Polly", "Red");
+        parrot.speak();
+        parrot.fly();
     }
 }

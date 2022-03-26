@@ -9,12 +9,17 @@ abstract class Bird {
  }
 
 class Pigeon {
+    speak()
     eatPizza()
     sleep()
 }
 
+class Parrot{
+speak()
+}
 
 Bird <|-- Pigeon
+Bird <|-- Parrot
 
 abstract AbstractCollection
 interface List
